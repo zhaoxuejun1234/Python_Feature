@@ -30,3 +30,10 @@ print(dict3.values())
 
 dict3.clear()
 #endregion
+
+
+#region zip
+a = [1,2,3]
+b = ["xuejun","jingyi","xiaoming"]
+c= zip(a,b)
+c,d = zip(*c)
